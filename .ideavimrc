@@ -1,0 +1,24 @@
+set visualbell
+
+sethandler <C-C> a:vim
+sethandler <C-V> n:vim i:ide
+Plug 'terryma/vim-multiple-cursors'
+
+" Shortcuts for 'delete to' and 'change to' keybinds"
+nmap d] dt]
+nmap c] ct]
+
+nmap d) dt)
+nmap c) ct)
+
+nmap d} dt}
+nmap c} ct}
+
+nmap d, dt,
+nmap c, ct,
+
+nmap d: dt:
+nmap c: ct:
+
+nmap d. dt.
+nmap c. ct.
